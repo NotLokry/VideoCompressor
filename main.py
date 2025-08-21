@@ -11,7 +11,7 @@ customtkinter.set_appearance_mode("System")
 app = customtkinter.CTk(fg_color="#111111")
 app.geometry("600x400")
 app.resizable(False, False)
-app.title("YouTube Downloader")
+app.title("Video Compressor")
 
 # Input and search frame
 class InputAndSearchFrame(customtkinter.CTkFrame):
