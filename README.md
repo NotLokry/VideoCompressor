@@ -1,4 +1,4 @@
-# Video Compressor
+# Video Compressor (For Discord)
 
 A simple desktop application to compress MP4 video files to approximately 10 MB using a graphical interface built with CustomTkinter and MoviePy.
 
