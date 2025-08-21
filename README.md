@@ -21,6 +21,7 @@ A simple desktop application to compress MP4 video files to approximately 10 MB 
 - Python 3.x
 - [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
 - [MoviePy](https://zulko.github.io/moviepy/)
+- [TempFile](https://docs.python.org/3/library/tempfile.html)
 
 Install dependencies with:
 

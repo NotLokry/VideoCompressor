@@ -3,6 +3,7 @@ import customtkinter
 from tkinter.messagebox import showinfo
 from tkinter import filedialog as fd
 from moviepy import VideoFileClip
+import tempfile
 
 customtkinter.set_appearance_mode("System") 
 
@@ -53,7 +54,8 @@ class InputAndSearchFrame(customtkinter.CTkFrame):
                     audio_codec="aac",
                     bitrate=f"{video_bitrate}k",
                     audio_bitrate=f"{audio_bitrate}k",
-                    ffmpeg_params=["-vf", "scale=-1:720"]
+                    ffmpeg_params=["-vf", "scale=-1:720"],
+                    temp_audiofile=f"{tempfile.gettempdir()}/compressionTempAudio.mp4"
                 )
 
                 # Message saying its done
